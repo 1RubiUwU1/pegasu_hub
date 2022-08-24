@@ -1,0 +1,5 @@
+local Teleport = Main:Tab("Teleport", "Planet")
+Teleport:Section("Teleports")
+Teleport:Button("Earth", "Teleports You To Earth.", function()
+	Int:Teleport(536102540)
+end)
