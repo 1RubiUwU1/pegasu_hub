@@ -3,12 +3,23 @@
 game:GetService("StarterGui"):SetCore(
     "SendNotification",
     {
-        Title = "acctive",
-        Text = "press E ",
+        Title = "x ray",
+        Text = "press E",
         Duration = "390"
     }
 )
+  
 local xrayHotkey = Enum.KeyCode.
+--[[ Credits ]]
+game:GetService("StarterGui"):SetCore(
+    "SendNotification",
+    {
+        Title = "Broly V9",
+        Text = "Made By Joseph",
+        Duration = "390"
+    }
+)
+  
 
 local uis = game:GetService("UserInputService")
 
@@ -17,7 +28,7 @@ local xrayOn = false
 
 
 uis.InputBegan:Connect(function(inp, processed)
- 
+  
  
  if processed then return end
  
